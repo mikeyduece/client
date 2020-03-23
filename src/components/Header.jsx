@@ -1,6 +1,8 @@
 // Dependencies
-import React    from 'react'
-import { Link } from 'react-router-dom'
+import React      from 'react'
+import { Link }   from 'react-router-dom'
+// Components
+import GoogleAuth from './GoogleAuth'
 
 const Header = () => {
   return (
@@ -9,6 +11,7 @@ const Header = () => {
 
       <div className='right menu'>
         <Link to='/' className='item'>All Streams</Link>
+        <GoogleAuth />
       </div>
     </div>
   )
