@@ -33,7 +33,6 @@ class StreamDelete extends Component {
   }
 
   render() {
-    console.log(this.props)
     return (
       <Modal
         title='Delete Stream'
